@@ -49,7 +49,53 @@ h3 { font-size: 1.15rem; margin-top: 28px; }
 }
 .badge i { font-style: normal; color: var(--accent-2); }
 
-.grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+.grid { 
+  display: grid; 
+  grid-template-columns: 1fr; 
+  gap: 14px; 
+  /* ——— Colorful buttons inside .grid ——— */
+}
+
+.grid .btn {
+  /* shape & layout */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 12px 18px;
+  min-height: 44px;
+  border-radius: 9999px;          /* full pill */
+  border: none;
+
+  /* typography & effects */
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 10px 20px rgba(2, 6, 23, 0.12);
+  transition: transform 0.06s ease, filter 0.15s ease, box-shadow 0.15s ease;
+}
+.grid .btn:hover {
+  filter: brightness(1.06);
+  text-decoration: none;
+  box-shadow: 0 14px 28px rgba(2, 6, 23, 0.16);
+  transform: translateY(-1px);
+}
+.grid .btn:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.35);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 4px rgba(255,255,255,0.9), 0 8px 20px rgba(2,6,23,0.18);
+}
+
+/* 1st button */
+.grid .btn:nth-child(1) {
+  background: linear-gradient(180deg, #2563eb, #1d4ed8); /* blue */
+}
+
+/* 2nd button */
+.grid .btn:nth-child(2) {
+  background: linear-gradient(180deg, #f97316, #ea580c); /* orange */
+}
+
 @media (min-width: 720px) { .grid { grid-template-columns: repeat(2, 1fr); gap: 18px; } }
 
 .section {

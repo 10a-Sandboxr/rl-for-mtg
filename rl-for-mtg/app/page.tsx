@@ -16,9 +16,10 @@ export default function Page() {
           Alex Thaikanov (MIT) · Blair Probst (Stanford) · Casey Tzao (CMU) · Dana Evelyn (Oxford)
         </p>
 
-        <form method="get" action="/downloads/MTG_with_RL.pdf">
-          <button type="submit" className="cta">Download the Paper</button>
-        </form>
+        <div className="grid">
+          <a className="btn" href="/downloads/MTG_with_RL.pdf">Download Paper</a>
+          <a className="btn" href="https://github.com/10a-Sandboxr/rl-for-mtg/tree/main" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+        </div>
 
         <div className="badges">
           <span className="badge"><i>●</i> Self‑play RL</span>
