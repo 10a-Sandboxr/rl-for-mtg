@@ -19,5 +19,5 @@ A compact, end‑to‑end research codebase for studying **reinforcement learnin
 ## Repository Contents
 
 - **Website (Next.js)**: Project landing page in the repo root (`app/`, `public/`).
-- **RL Codebase (Python)**: `ml/` directory with environment, MCTS, model, and training loop.
+- **RL Codebase (Python)**: `rl-for-mtg/src/` directory with environment, MCTS, model, and training loop.
 
