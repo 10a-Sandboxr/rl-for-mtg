@@ -1,4 +1,4 @@
-# Reinforcement Learning for Competitive Magic: The Gathering — Research Repo
+# Reinforcement Learning for Competitive Magic: The Gathering
 
 **Authors:** Alex Thaikanov (MIT), Blair Probst (Stanford), Casey Tzao (CMU), Dana Evelyn (Oxford)
 
