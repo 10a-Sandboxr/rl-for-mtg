@@ -4,6 +4,8 @@
 
 This is the official implementation of the paper "Reinforcement Learning for Competitive Magic: The Gathering" (NeurIPS 2025)
 
+Project website: www.reinforcement-learning-for-mtg.com
+
 ---
 
 ## Overview
