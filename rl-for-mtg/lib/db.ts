@@ -7,7 +7,7 @@ const ssl =
     : undefined;
 
 const pool = new Pool({
-  connectionString: "postgres://neondb_owner:npg_0qomcTlHvr2K@ep-green-waterfall-adgd4miw-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require",
+  connectionString: process.env.DATABASE_URL,
   ssl,
   // keep tiny for serverless; tune if you run a long-lived server
   max: 3,
