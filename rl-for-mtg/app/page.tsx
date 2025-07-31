@@ -18,8 +18,10 @@ export default function Page() {
 
         <div className="grid">
           <a className="btn" href="/downloads/MTG_with_RL.pdf">Download Paper</a>
-          <a className="btn" href="https://github.com/10a-Sandboxr/rl-for-mtg/tree/main" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+          <a className="btn" href="https://github.com/10a-Sandboxr/rl-for-mtg" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
         </div>
+
+        <p> Link to Github Repository: https://github.com/10a-Sandboxr/rl-for-mtg </p>
 
         <div className="badges">
           <span className="badge"><i>●</i> Self‑play RL</span>
